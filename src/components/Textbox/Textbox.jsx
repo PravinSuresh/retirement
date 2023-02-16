@@ -15,6 +15,8 @@ const Textbox = ({text, setText, disabled, error=false, label, helperText=''}) =
         onChange={(e)=>{setText(e.target.value)}}
         disabled={disabled}
         helperText={helperText}
+        size={'small'}
+        style={{'width':"125px"}}
         />
   );
 }
